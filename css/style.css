@@ -1,19 +1,9 @@
-body {
-  background-color: white;
-}
+body { background-color: white; }
 
-.block {
-  display: -ms-flexbox;
-  display: flex;
-}
+.block { display: -ms-flexbox; display: flex; }
 
-.block-2 {
-  display: -ms-flexbox;
-  display: flex;
-}
+.block-2 { display: -ms-flexbox; display: flex; }
 
-.block-10 {
-  display: -ms-flexbox;
-  display: flex;
-}
-/*# sourceMappingURL=style.css.map */
+.block-10 { display: -ms-flexbox; display: flex; }
+
+.block-12 { display: -ms-inline-flexbox; display: inline-flex; }
