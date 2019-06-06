@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm-run-all test:*",
-    "test:test": "echo test2",
-    "testhtml": "nu-html-checker *.html",
+    "test:html": "nu-html-checker -f json *.html",
     "init-project": "npm i && npm-run-all init:*",
     "init:dirs": "mkdir -p sass vendor images js css",
     "init:files": "touch README.md index.html sass/style.scss js/script.js",
@@ -21,7 +20,6 @@
     "watch:sassprefixer": "onchange sass -- npm-run-all -s onchange:*",
     "onchange:sass": "node-sass --output-style expanded --source-map true -o css sass",
     "onchange:autoprefixer": "autoprefixer-cli css/style.css"
-
   },
   "keywords": [],
   "author": "",
